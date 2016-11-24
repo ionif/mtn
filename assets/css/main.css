@@ -1784,13 +1784,13 @@
 		border-color: rgba(144, 144, 144, 0.25);
 	}
 
-/* Button */
+/* buttona */
 
 	input[type="submit"],
 	input[type="reset"],
-	input[type="button"],
-	button,
-	.button {
+	input[type="buttona"],
+	buttona,
+	.buttona {
 		-moz-appearance: none;
 		-webkit-appearance: none;
 		-ms-appearance: none;
@@ -1814,33 +1814,33 @@
 
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
-		input[type="button"]:hover,
-		button:hover,
-		.button:hover {
+		input[type="buttona"]:hover,
+		buttona:hover,
+		.buttona:hover {
 			text-decoration: none;
 		}
 
 		input[type="submit"].icon,
 		input[type="reset"].icon,
-		input[type="button"].icon,
-		button.icon,
-		.button.icon {
+		input[type="buttona"].icon,
+		buttona.icon,
+		.buttona.icon {
 			padding-left: 1.35em;
 		}
 
 			input[type="submit"].icon:before,
 			input[type="reset"].icon:before,
-			input[type="button"].icon:before,
-			button.icon:before,
-			.button.icon:before {
+			input[type="buttona"].icon:before,
+			buttona.icon:before,
+			.buttona.icon:before {
 				margin-right: 0.5em;
 			}
 
 		input[type="submit"].fit,
 		input[type="reset"].fit,
-		input[type="button"].fit,
-		button.fit,
-		.button.fit {
+		input[type="buttona"].fit,
+		buttona.fit,
+		.buttona.fit {
 			display: block;
 			margin: 0 0 1em 0;
 			width: 100%;
@@ -1848,29 +1848,29 @@
 
 		input[type="submit"].small,
 		input[type="reset"].small,
-		input[type="button"].small,
-		button.small,
-		.button.small {
+		input[type="buttona"].small,
+		buttona.small,
+		.buttona.small {
 			font-size: 0.8em;
 		}
 
 		input[type="submit"].big,
 		input[type="reset"].big,
-		input[type="button"].big,
-		button.big,
-		.button.big {
+		input[type="buttona"].big,
+		buttona.big,
+		.buttona.big {
 			font-size: 1.25em;
 		}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
 		input[type="reset"].disabled,
 		input[type="reset"]:disabled,
-		input[type="button"].disabled,
-		input[type="button"]:disabled,
-		button.disabled,
-		button:disabled,
-		.button.disabled,
-		.button:disabled {
+		input[type="buttona"].disabled,
+		input[type="buttona"]:disabled,
+		buttona.disabled,
+		buttona:disabled,
+		.buttona.disabled,
+		.buttona:disabled {
 			-moz-pointer-events: none;
 			-webkit-pointer-events: none;
 			-ms-pointer-events: none;
@@ -1882,9 +1882,9 @@
 
 			input[type="submit"],
 			input[type="reset"],
-			input[type="button"],
-			button,
-			.button {
+			input[type="buttona"],
+			buttona,
+			.buttona {
 				padding: 0;
 			}
 
@@ -1892,34 +1892,34 @@
 
 	input[type="submit"],
 	input[type="reset"],
-	input[type="button"],
-	button,
-	.button {
+	input[type="buttona"],
+	buttona,
+	.buttona {
 		background-color: #1A8BBC;
 		color: #fff !important;
 	}
 
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
-		input[type="button"]:hover,
-		button:hover,
-		.button:hover {
+		input[type="buttona"]:hover,
+		buttona:hover,
+		.buttona:hover {
 			background-color: #1dd2af;
 		}
 
 		input[type="submit"]:active,
 		input[type="reset"]:active,
-		input[type="button"]:active,
-		button:active,
-		.button:active {
+		input[type="buttona"]:active,
+		buttona:active,
+		.buttona:active {
 			background-color: #17a689;
 		}
 
 		input[type="submit"].alt,
 		input[type="reset"].alt,
-		input[type="button"].alt,
-		button.alt,
-		.button.alt {
+		input[type="buttona"].alt,
+		buttona.alt,
+		.buttona.alt {
 			background-color: transparent;
 			box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
 			color: #555 !important;
@@ -1927,50 +1927,50 @@
 
 			input[type="submit"].alt:hover,
 			input[type="reset"].alt:hover,
-			input[type="button"].alt:hover,
-			button.alt:hover,
-			.button.alt:hover {
+			input[type="buttona"].alt:hover,
+			buttona.alt:hover,
+			.buttona.alt:hover {
 				background-color: rgba(144, 144, 144, 0.075);
 			}
 
 			input[type="submit"].alt:active,
 			input[type="reset"].alt:active,
-			input[type="button"].alt:active,
-			button.alt:active,
-			.button.alt:active {
+			input[type="buttona"].alt:active,
+			buttona.alt:active,
+			.buttona.alt:active {
 				background-color: rgba(144, 144, 144, 0.2);
 			}
 
 			input[type="submit"].alt.icon:before,
 			input[type="reset"].alt.icon:before,
-			input[type="button"].alt.icon:before,
-			button.alt.icon:before,
-			.button.alt.icon:before {
+			input[type="buttona"].alt.icon:before,
+			buttona.alt.icon:before,
+			.buttona.alt.icon:before {
 				color: #bbb;
 			}
 
 		input[type="submit"].special,
 		input[type="reset"].special,
-		input[type="button"].special,
-		button.special,
-		.button.special {
+		input[type="buttona"].special,
+		buttona.special,
+		.buttona.special {
 			background-color: #3498db;
 			color: #fff !important;
 		}
 
 			input[type="submit"].special:hover,
 			input[type="reset"].special:hover,
-			input[type="button"].special:hover,
-			button.special:hover,
-			.button.special:hover {
+			input[type="buttona"].special:hover,
+			buttona.special:hover,
+			.buttona.special:hover {
 				background-color: #4aa3df;
 			}
 
 			input[type="submit"].special:active,
 			input[type="reset"].special:active,
-			input[type="button"].special:active,
-			button.special:active,
-			.button.special:active {
+			input[type="buttona"].special:active,
+			buttona.special:active,
+			.buttona.special:active {
 				background-color: #258cd1;
 			}
 
@@ -2660,34 +2660,34 @@
 
 			.wrapper.style1 input[type="submit"],
 			.wrapper.style1 input[type="reset"],
-			.wrapper.style1 input[type="button"],
-			.wrapper.style1 button,
-			.wrapper.style1 .button {
+			.wrapper.style1 input[type="buttona"],
+			.wrapper.style1 buttona,
+			.wrapper.style1 .buttona {
 				background-color: #1A8BBC;
 				color: #fff !important;
 			}
 
 				.wrapper.style1 input[type="submit"]:hover,
 				.wrapper.style1 input[type="reset"]:hover,
-				.wrapper.style1 input[type="button"]:hover,
-				.wrapper.style1 button:hover,
-				.wrapper.style1 .button:hover {
+				.wrapper.style1 input[type="buttona"]:hover,
+				.wrapper.style1 buttona:hover,
+				.wrapper.style1 .buttona:hover {
 					background-color: #1dd2af;
 				}
 
 				.wrapper.style1 input[type="submit"]:active,
 				.wrapper.style1 input[type="reset"]:active,
-				.wrapper.style1 input[type="button"]:active,
-				.wrapper.style1 button:active,
-				.wrapper.style1 .button:active {
+				.wrapper.style1 input[type="buttona"]:active,
+				.wrapper.style1 buttona:active,
+				.wrapper.style1 .buttona:active {
 					background-color: #17a689;
 				}
 
 				.wrapper.style1 input[type="submit"].alt,
 				.wrapper.style1 input[type="reset"].alt,
-				.wrapper.style1 input[type="button"].alt,
-				.wrapper.style1 button.alt,
-				.wrapper.style1 .button.alt {
+				.wrapper.style1 input[type="buttona"].alt,
+				.wrapper.style1 buttona.alt,
+				.wrapper.style1 .buttona.alt {
 					background-color: transparent;
 					box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
 					color: #1A8BBC !important;
@@ -2695,33 +2695,33 @@
 
 					.wrapper.style1 input[type="submit"].alt:hover,
 					.wrapper.style1 input[type="reset"].alt:hover,
-					.wrapper.style1 input[type="button"].alt:hover,
-					.wrapper.style1 button.alt:hover,
-					.wrapper.style1 .button.alt:hover {
+					.wrapper.style1 input[type="buttona"].alt:hover,
+					.wrapper.style1 buttona.alt:hover,
+					.wrapper.style1 .buttona.alt:hover {
 						background-color: rgba(144, 144, 144, 0.075);
 					}
 
 					.wrapper.style1 input[type="submit"].alt:active,
 					.wrapper.style1 input[type="reset"].alt:active,
-					.wrapper.style1 input[type="button"].alt:active,
-					.wrapper.style1 button.alt:active,
-					.wrapper.style1 .button.alt:active {
+					.wrapper.style1 input[type="buttona"].alt:active,
+					.wrapper.style1 buttona.alt:active,
+					.wrapper.style1 .buttona.alt:active {
 						background-color: rgba(144, 144, 144, 0.2);
 					}
 
 					.wrapper.style1 input[type="submit"].alt.icon:before,
 					.wrapper.style1 input[type="reset"].alt.icon:before,
-					.wrapper.style1 input[type="button"].alt.icon:before,
-					.wrapper.style1 button.alt.icon:before,
-					.wrapper.style1 .button.alt.icon:before {
+					.wrapper.style1 input[type="buttona"].alt.icon:before,
+					.wrapper.style1 buttona.alt.icon:before,
+					.wrapper.style1 .buttona.alt.icon:before {
 						color: #bbb;
 					}
 
 				.wrapper.style1 input[type="submit"].special,
 				.wrapper.style1 input[type="reset"].special,
-				.wrapper.style1 input[type="button"].special,
-				.wrapper.style1 button.special,
-				.wrapper.style1 .button.special {
+				.wrapper.style1 input[type="buttona"].special,
+				.wrapper.style1 buttona.special,
+				.wrapper.style1 .buttona.special {
 					background-color: #1A8BBC;
 					color: #fff !important;
 				}
@@ -2868,34 +2868,34 @@
 
 			.wrapper.style2 input[type="submit"],
 			.wrapper.style2 input[type="reset"],
-			.wrapper.style2 input[type="button"],
-			.wrapper.style2 button,
-			.wrapper.style2 .button {
+			.wrapper.style2 input[type="buttona"],
+			.wrapper.style2 buttona,
+			.wrapper.style2 .buttona {
 				background-color: #1A8BBC;
 				color: #fff !important;
 			}
 
 				.wrapper.style2 input[type="submit"]:hover,
 				.wrapper.style2 input[type="reset"]:hover,
-				.wrapper.style2 input[type="button"]:hover,
-				.wrapper.style2 button:hover,
-				.wrapper.style2 .button:hover {
+				.wrapper.style2 input[type="buttona"]:hover,
+				.wrapper.style2 buttona:hover,
+				.wrapper.style2 .buttona:hover {
 					background-color: #1dd2af;
 				}
 
 				.wrapper.style2 input[type="submit"]:active,
 				.wrapper.style2 input[type="reset"]:active,
-				.wrapper.style2 input[type="button"]:active,
-				.wrapper.style2 button:active,
-				.wrapper.style2 .button:active {
+				.wrapper.style2 input[type="buttona"]:active,
+				.wrapper.style2 buttona:active,
+				.wrapper.style2 .buttona:active {
 					background-color: #17a689;
 				}
 
 				.wrapper.style2 input[type="submit"].alt,
 				.wrapper.style2 input[type="reset"].alt,
-				.wrapper.style2 input[type="button"].alt,
-				.wrapper.style2 button.alt,
-				.wrapper.style2 .button.alt {
+				.wrapper.style2 input[type="buttona"].alt,
+				.wrapper.style2 buttona.alt,
+				.wrapper.style2 .buttona.alt {
 					background-color: transparent;
 					box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
 					color: #3498db !important;
@@ -2903,33 +2903,33 @@
 
 					.wrapper.style2 input[type="submit"].alt:hover,
 					.wrapper.style2 input[type="reset"].alt:hover,
-					.wrapper.style2 input[type="button"].alt:hover,
-					.wrapper.style2 button.alt:hover,
-					.wrapper.style2 .button.alt:hover {
+					.wrapper.style2 input[type="buttona"].alt:hover,
+					.wrapper.style2 buttona.alt:hover,
+					.wrapper.style2 .buttona.alt:hover {
 						background-color: rgba(144, 144, 144, 0.075);
 					}
 
 					.wrapper.style2 input[type="submit"].alt:active,
 					.wrapper.style2 input[type="reset"].alt:active,
-					.wrapper.style2 input[type="button"].alt:active,
-					.wrapper.style2 button.alt:active,
-					.wrapper.style2 .button.alt:active {
+					.wrapper.style2 input[type="buttona"].alt:active,
+					.wrapper.style2 buttona.alt:active,
+					.wrapper.style2 .buttona.alt:active {
 						background-color: rgba(144, 144, 144, 0.2);
 					}
 
 					.wrapper.style2 input[type="submit"].alt.icon:before,
 					.wrapper.style2 input[type="reset"].alt.icon:before,
-					.wrapper.style2 input[type="button"].alt.icon:before,
-					.wrapper.style2 button.alt.icon:before,
-					.wrapper.style2 .button.alt.icon:before {
+					.wrapper.style2 input[type="buttona"].alt.icon:before,
+					.wrapper.style2 buttona.alt.icon:before,
+					.wrapper.style2 .buttona.alt.icon:before {
 						color: #bbb;
 					}
 
 				.wrapper.style2 input[type="submit"].special,
 				.wrapper.style2 input[type="reset"].special,
-				.wrapper.style2 input[type="button"].special,
-				.wrapper.style2 button.special,
-				.wrapper.style2 .button.special {
+				.wrapper.style2 input[type="buttona"].special,
+				.wrapper.style2 buttona.special,
+				.wrapper.style2 .buttona.special {
 					background-color: #3498db;
 					color: #fff !important;
 				}
@@ -3218,7 +3218,7 @@
 					padding: 0;
 				}
 
-					#menu > ul.links > li > a:not(.button) {
+					#menu > ul.links > li > a:not(.buttona) {
 						border: 0;
 						border-top: solid 1px rgba(255, 255, 255, 0.25);
 						color: inherit;
@@ -3227,12 +3227,12 @@
 						text-decoration: none;
 					}
 
-					#menu > ul.links > li > .button {
+					#menu > ul.links > li > .buttona {
 						display: block;
 						margin: 0.5em 0 0 0;
 					}
 
-					#menu > ul.links > li:first-child > a:not(.button) {
+					#menu > ul.links > li:first-child > a:not(.buttona) {
 						border-top: 0 !important;
 					}
 
@@ -3347,34 +3347,34 @@
 
 		#banner input[type="submit"],
 		#banner input[type="reset"],
-		#banner input[type="button"],
-		#banner button,
-		#banner .button {
+		#banner input[type="buttona"],
+		#banner buttona,
+		#banner .buttona {
 			background-color: #1A8BBC;
 			color: #fff !important;
 		}
 
 			#banner input[type="submit"]:hover,
 			#banner input[type="reset"]:hover,
-			#banner input[type="button"]:hover,
-			#banner button:hover,
-			#banner .button:hover {
+			#banner input[type="buttona"]:hover,
+			#banner buttona:hover,
+			#banner .buttona:hover {
 				background-color: #1dd2af;
 			}
 
 			#banner input[type="submit"]:active,
 			#banner input[type="reset"]:active,
-			#banner input[type="button"]:active,
-			#banner button:active,
-			#banner .button:active {
+			#banner input[type="buttona"]:active,
+			#banner buttona:active,
+			#banner .buttona:active {
 				background-color: #17a689;
 			}
 
 			#banner input[type="submit"].alt,
 			#banner input[type="reset"].alt,
-			#banner input[type="button"].alt,
-			#banner button.alt,
-			#banner .button.alt {
+			#banner input[type="buttona"].alt,
+			#banner buttona.alt,
+			#banner .buttona.alt {
 				background-color: transparent;
 				box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
 				color: #fff !important;
@@ -3382,33 +3382,33 @@
 
 				#banner input[type="submit"].alt:hover,
 				#banner input[type="reset"].alt:hover,
-				#banner input[type="button"].alt:hover,
-				#banner button.alt:hover,
-				#banner .button.alt:hover {
+				#banner input[type="buttona"].alt:hover,
+				#banner buttona.alt:hover,
+				#banner .buttona.alt:hover {
 					background-color: rgba(255, 255, 255, 0.075);
 				}
 
 				#banner input[type="submit"].alt:active,
 				#banner input[type="reset"].alt:active,
-				#banner input[type="button"].alt:active,
-				#banner button.alt:active,
-				#banner .button.alt:active {
+				#banner input[type="buttona"].alt:active,
+				#banner buttona.alt:active,
+				#banner .buttona.alt:active {
 					background-color: rgba(255, 255, 255, 0.2);
 				}
 
 				#banner input[type="submit"].alt.icon:before,
 				#banner input[type="reset"].alt.icon:before,
-				#banner input[type="button"].alt.icon:before,
-				#banner button.alt.icon:before,
-				#banner .button.alt.icon:before {
+				#banner input[type="buttona"].alt.icon:before,
+				#banner buttona.alt.icon:before,
+				#banner .buttona.alt.icon:before {
 					color: rgba(255, 255, 255, 0.5);
 				}
 
 			#banner input[type="submit"].special,
 			#banner input[type="reset"].special,
-			#banner input[type="button"].special,
-			#banner button.special,
-			#banner .button.special {
+			#banner input[type="buttona"].special,
+			#banner buttona.special,
+			#banner .buttona.special {
 				background-color: #fff;
 				color: #3498db !important;
 			}
@@ -3665,7 +3665,7 @@
 				padding: .5em 0;
 			}
 
-			.post .content .button {
+			.post .content .buttona {
 				margin: 0;
 			}
 
@@ -3795,34 +3795,34 @@
 
 			.post.style1 input[type="submit"],
 			.post.style1 input[type="reset"],
-			.post.style1 input[type="button"],
-			.post.style1 button,
-			.post.style1 .button {
+			.post.style1 input[type="buttona"],
+			.post.style1 buttona,
+			.post.style1 .buttona {
 				background-color: #1A8BBC;
 				color: #fff !important;
 			}
 
 				.post.style1 input[type="submit"]:hover,
 				.post.style1 input[type="reset"]:hover,
-				.post.style1 input[type="button"]:hover,
-				.post.style1 button:hover,
-				.post.style1 .button:hover {
+				.post.style1 input[type="buttona"]:hover,
+				.post.style1 buttona:hover,
+				.post.style1 .buttona:hover {
 					background-color: #1dd2af;
 				}
 
 				.post.style1 input[type="submit"]:active,
 				.post.style1 input[type="reset"]:active,
-				.post.style1 input[type="button"]:active,
-				.post.style1 button:active,
-				.post.style1 .button:active {
+				.post.style1 input[type="buttona"]:active,
+				.post.style1 buttona:active,
+				.post.style1 .buttona:active {
 					background-color: #17a689;
 				}
 
 				.post.style1 input[type="submit"].alt,
 				.post.style1 input[type="reset"].alt,
-				.post.style1 input[type="button"].alt,
-				.post.style1 button.alt,
-				.post.style1 .button.alt {
+				.post.style1 input[type="buttona"].alt,
+				.post.style1 buttona.alt,
+				.post.style1 .buttona.alt {
 					background-color: transparent;
 					box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
 					color: #1A8BBC !important;
@@ -3830,33 +3830,33 @@
 
 					.post.style1 input[type="submit"].alt:hover,
 					.post.style1 input[type="reset"].alt:hover,
-					.post.style1 input[type="button"].alt:hover,
-					.post.style1 button.alt:hover,
-					.post.style1 .button.alt:hover {
+					.post.style1 input[type="buttona"].alt:hover,
+					.post.style1 buttona.alt:hover,
+					.post.style1 .buttona.alt:hover {
 						background-color: rgba(144, 144, 144, 0.075);
 					}
 
 					.post.style1 input[type="submit"].alt:active,
 					.post.style1 input[type="reset"].alt:active,
-					.post.style1 input[type="button"].alt:active,
-					.post.style1 button.alt:active,
-					.post.style1 .button.alt:active {
+					.post.style1 input[type="buttona"].alt:active,
+					.post.style1 buttona.alt:active,
+					.post.style1 .buttona.alt:active {
 						background-color: rgba(144, 144, 144, 0.2);
 					}
 
 					.post.style1 input[type="submit"].alt.icon:before,
 					.post.style1 input[type="reset"].alt.icon:before,
-					.post.style1 input[type="button"].alt.icon:before,
-					.post.style1 button.alt.icon:before,
-					.post.style1 .button.alt.icon:before {
+					.post.style1 input[type="buttona"].alt.icon:before,
+					.post.style1 buttona.alt.icon:before,
+					.post.style1 .buttona.alt.icon:before {
 						color: #bbb;
 					}
 
 				.post.style1 input[type="submit"].special,
 				.post.style1 input[type="reset"].special,
-				.post.style1 input[type="button"].special,
-				.post.style1 button.special,
-				.post.style1 .button.special {
+				.post.style1 input[type="buttona"].special,
+				.post.style1 buttona.special,
+				.post.style1 .buttona.special {
 					background-color: #1A8BBC;
 					color: #fff !important;
 				}
@@ -3897,18 +3897,18 @@
 
 				.post.style1.invert input[type="submit"],
 				.post.style1.invert input[type="reset"],
-				.post.style1.invert input[type="button"],
-				.post.style1.invert button,
-				.post.style1.invert .button {
+				.post.style1.invert input[type="buttona"],
+				.post.style1.invert buttona,
+				.post.style1.invert .buttona {
 					background-color: #fff;
 					color: #1A8BBC !important;
 				}
 
 					.post.style1.invert input[type="submit"].alt,
 					.post.style1.invert input[type="reset"].alt,
-					.post.style1.invert input[type="button"].alt,
-					.post.style1.invert button.alt,
-					.post.style1.invert .button.alt {
+					.post.style1.invert input[type="buttona"].alt,
+					.post.style1.invert buttona.alt,
+					.post.style1.invert .buttona.alt {
 						background-color: transparent;
 						box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
 						color: #fff !important;
@@ -3916,33 +3916,33 @@
 
 						.post.style1.invert input[type="submit"].alt:hover,
 						.post.style1.invert input[type="reset"].alt:hover,
-						.post.style1.invert input[type="button"].alt:hover,
-						.post.style1.invert button.alt:hover,
-						.post.style1.invert .button.alt:hover {
+						.post.style1.invert input[type="buttona"].alt:hover,
+						.post.style1.invert buttona.alt:hover,
+						.post.style1.invert .buttona.alt:hover {
 							background-color: rgba(255, 255, 255, 0.075);
 						}
 
 						.post.style1.invert input[type="submit"].alt:active,
 						.post.style1.invert input[type="reset"].alt:active,
-						.post.style1.invert input[type="button"].alt:active,
-						.post.style1.invert button.alt:active,
-						.post.style1.invert .button.alt:active {
+						.post.style1.invert input[type="buttona"].alt:active,
+						.post.style1.invert buttona.alt:active,
+						.post.style1.invert .buttona.alt:active {
 							background-color: rgba(255, 255, 255, 0.2);
 						}
 
 						.post.style1.invert input[type="submit"].alt.icon:before,
 						.post.style1.invert input[type="reset"].alt.icon:before,
-						.post.style1.invert input[type="button"].alt.icon:before,
-						.post.style1.invert button.alt.icon:before,
-						.post.style1.invert .button.alt.icon:before {
+						.post.style1.invert input[type="buttona"].alt.icon:before,
+						.post.style1.invert buttona.alt.icon:before,
+						.post.style1.invert .buttona.alt.icon:before {
 							color: rgba(255, 255, 255, 0.5);
 						}
 
 					.post.style1.invert input[type="submit"].special,
 					.post.style1.invert input[type="reset"].special,
-					.post.style1.invert input[type="button"].special,
-					.post.style1.invert button.special,
-					.post.style1.invert .button.special {
+					.post.style1.invert input[type="buttona"].special,
+					.post.style1.invert buttona.special,
+					.post.style1.invert .buttona.special {
 						background-color: #fff;
 						color: #1A8BBC !important;
 					}
@@ -4009,34 +4009,34 @@
 
 			.post.style2 input[type="submit"],
 			.post.style2 input[type="reset"],
-			.post.style2 input[type="button"],
-			.post.style2 button,
-			.post.style2 .button {
+			.post.style2 input[type="buttona"],
+			.post.style2 buttona,
+			.post.style2 .buttona {
 				background-color: #1A8BBC;
 				color: #fff !important;
 			}
 
 				.post.style2 input[type="submit"]:hover,
 				.post.style2 input[type="reset"]:hover,
-				.post.style2 input[type="button"]:hover,
-				.post.style2 button:hover,
-				.post.style2 .button:hover {
+				.post.style2 input[type="buttona"]:hover,
+				.post.style2 buttona:hover,
+				.post.style2 .buttona:hover {
 					background-color: #1dd2af;
 				}
 
 				.post.style2 input[type="submit"]:active,
 				.post.style2 input[type="reset"]:active,
-				.post.style2 input[type="button"]:active,
-				.post.style2 button:active,
-				.post.style2 .button:active {
+				.post.style2 input[type="buttona"]:active,
+				.post.style2 buttona:active,
+				.post.style2 .buttona:active {
 					background-color: #17a689;
 				}
 
 				.post.style2 input[type="submit"].alt,
 				.post.style2 input[type="reset"].alt,
-				.post.style2 input[type="button"].alt,
-				.post.style2 button.alt,
-				.post.style2 .button.alt {
+				.post.style2 input[type="buttona"].alt,
+				.post.style2 buttona.alt,
+				.post.style2 .buttona.alt {
 					background-color: transparent;
 					box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
 					color: #3498db !important;
@@ -4044,33 +4044,33 @@
 
 					.post.style2 input[type="submit"].alt:hover,
 					.post.style2 input[type="reset"].alt:hover,
-					.post.style2 input[type="button"].alt:hover,
-					.post.style2 button.alt:hover,
-					.post.style2 .button.alt:hover {
+					.post.style2 input[type="buttona"].alt:hover,
+					.post.style2 buttona.alt:hover,
+					.post.style2 .buttona.alt:hover {
 						background-color: rgba(144, 144, 144, 0.075);
 					}
 
 					.post.style2 input[type="submit"].alt:active,
 					.post.style2 input[type="reset"].alt:active,
-					.post.style2 input[type="button"].alt:active,
-					.post.style2 button.alt:active,
-					.post.style2 .button.alt:active {
+					.post.style2 input[type="buttona"].alt:active,
+					.post.style2 buttona.alt:active,
+					.post.style2 .buttona.alt:active {
 						background-color: rgba(144, 144, 144, 0.2);
 					}
 
 					.post.style2 input[type="submit"].alt.icon:before,
 					.post.style2 input[type="reset"].alt.icon:before,
-					.post.style2 input[type="button"].alt.icon:before,
-					.post.style2 button.alt.icon:before,
-					.post.style2 .button.alt.icon:before {
+					.post.style2 input[type="buttona"].alt.icon:before,
+					.post.style2 buttona.alt.icon:before,
+					.post.style2 .buttona.alt.icon:before {
 						color: #bbb;
 					}
 
 				.post.style2 input[type="submit"].special,
 				.post.style2 input[type="reset"].special,
-				.post.style2 input[type="button"].special,
-				.post.style2 button.special,
-				.post.style2 .button.special {
+				.post.style2 input[type="buttona"].special,
+				.post.style2 buttona.special,
+				.post.style2 .buttona.special {
 					background-color: #3498db;
 					color: #fff !important;
 				}
@@ -4111,34 +4111,34 @@
 
 				.post.style2.invert input[type="submit"],
 				.post.style2.invert input[type="reset"],
-				.post.style2.invert input[type="button"],
-				.post.style2.invert button,
-				.post.style2.invert .button {
+				.post.style2.invert input[type="buttona"],
+				.post.style2.invert buttona,
+				.post.style2.invert .buttona {
 					background-color: #1A8BBC;
 					color: #fff !important;
 				}
 
 					.post.style2.invert input[type="submit"]:hover,
 					.post.style2.invert input[type="reset"]:hover,
-					.post.style2.invert input[type="button"]:hover,
-					.post.style2.invert button:hover,
-					.post.style2.invert .button:hover {
+					.post.style2.invert input[type="buttona"]:hover,
+					.post.style2.invert buttona:hover,
+					.post.style2.invert .buttona:hover {
 						background-color: #1dd2af;
 					}
 
 					.post.style2.invert input[type="submit"]:active,
 					.post.style2.invert input[type="reset"]:active,
-					.post.style2.invert input[type="button"]:active,
-					.post.style2.invert button:active,
-					.post.style2.invert .button:active {
+					.post.style2.invert input[type="buttona"]:active,
+					.post.style2.invert buttona:active,
+					.post.style2.invert .buttona:active {
 						background-color: #17a689;
 					}
 
 					.post.style2.invert input[type="submit"].alt,
 					.post.style2.invert input[type="reset"].alt,
-					.post.style2.invert input[type="button"].alt,
-					.post.style2.invert button.alt,
-					.post.style2.invert .button.alt {
+					.post.style2.invert input[type="buttona"].alt,
+					.post.style2.invert buttona.alt,
+					.post.style2.invert .buttona.alt {
 						background-color: transparent;
 						box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
 						color: #fff !important;
@@ -4146,33 +4146,33 @@
 
 						.post.style2.invert input[type="submit"].alt:hover,
 						.post.style2.invert input[type="reset"].alt:hover,
-						.post.style2.invert input[type="button"].alt:hover,
-						.post.style2.invert button.alt:hover,
-						.post.style2.invert .button.alt:hover {
+						.post.style2.invert input[type="buttona"].alt:hover,
+						.post.style2.invert buttona.alt:hover,
+						.post.style2.invert .buttona.alt:hover {
 							background-color: rgba(255, 255, 255, 0.075);
 						}
 
 						.post.style2.invert input[type="submit"].alt:active,
 						.post.style2.invert input[type="reset"].alt:active,
-						.post.style2.invert input[type="button"].alt:active,
-						.post.style2.invert button.alt:active,
-						.post.style2.invert .button.alt:active {
+						.post.style2.invert input[type="buttona"].alt:active,
+						.post.style2.invert buttona.alt:active,
+						.post.style2.invert .buttona.alt:active {
 							background-color: rgba(255, 255, 255, 0.2);
 						}
 
 						.post.style2.invert input[type="submit"].alt.icon:before,
 						.post.style2.invert input[type="reset"].alt.icon:before,
-						.post.style2.invert input[type="button"].alt.icon:before,
-						.post.style2.invert button.alt.icon:before,
-						.post.style2.invert .button.alt.icon:before {
+						.post.style2.invert input[type="buttona"].alt.icon:before,
+						.post.style2.invert buttona.alt.icon:before,
+						.post.style2.invert .buttona.alt.icon:before {
 							color: rgba(255, 255, 255, 0.5);
 						}
 
 					.post.style2.invert input[type="submit"].special,
 					.post.style2.invert input[type="reset"].special,
-					.post.style2.invert input[type="button"].special,
-					.post.style2.invert button.special,
-					.post.style2.invert .button.special {
+					.post.style2.invert input[type="buttona"].special,
+					.post.style2.invert buttona.special,
+					.post.style2.invert .buttona.special {
 						background-color: #fff;
 						color: #3498db !important;
 					}
@@ -4239,34 +4239,34 @@
 
 			.post.style3 input[type="submit"],
 			.post.style3 input[type="reset"],
-			.post.style3 input[type="button"],
-			.post.style3 button,
-			.post.style3 .button {
+			.post.style3 input[type="buttona"],
+			.post.style3 buttona,
+			.post.style3 .buttona {
 				background-color: #1A8BBC;
 				color: #fff !important;
 			}
 
 				.post.style3 input[type="submit"]:hover,
 				.post.style3 input[type="reset"]:hover,
-				.post.style3 input[type="button"]:hover,
-				.post.style3 button:hover,
-				.post.style3 .button:hover {
+				.post.style3 input[type="buttona"]:hover,
+				.post.style3 buttona:hover,
+				.post.style3 .buttona:hover {
 					background-color: #1dd2af;
 				}
 
 				.post.style3 input[type="submit"]:active,
 				.post.style3 input[type="reset"]:active,
-				.post.style3 input[type="button"]:active,
-				.post.style3 button:active,
-				.post.style3 .button:active {
+				.post.style3 input[type="buttona"]:active,
+				.post.style3 buttona:active,
+				.post.style3 .buttona:active {
 					background-color: #17a689;
 				}
 
 				.post.style3 input[type="submit"].alt,
 				.post.style3 input[type="reset"].alt,
-				.post.style3 input[type="button"].alt,
-				.post.style3 button.alt,
-				.post.style3 .button.alt {
+				.post.style3 input[type="buttona"].alt,
+				.post.style3 buttona.alt,
+				.post.style3 .buttona.alt {
 					background-color: transparent;
 					box-shadow: inset 0 0 0 2px rgba(144, 144, 144, 0.25);
 					color: #9b59b6 !important;
@@ -4274,33 +4274,33 @@
 
 					.post.style3 input[type="submit"].alt:hover,
 					.post.style3 input[type="reset"].alt:hover,
-					.post.style3 input[type="button"].alt:hover,
-					.post.style3 button.alt:hover,
-					.post.style3 .button.alt:hover {
+					.post.style3 input[type="buttona"].alt:hover,
+					.post.style3 buttona.alt:hover,
+					.post.style3 .buttona.alt:hover {
 						background-color: rgba(144, 144, 144, 0.075);
 					}
 
 					.post.style3 input[type="submit"].alt:active,
 					.post.style3 input[type="reset"].alt:active,
-					.post.style3 input[type="button"].alt:active,
-					.post.style3 button.alt:active,
-					.post.style3 .button.alt:active {
+					.post.style3 input[type="buttona"].alt:active,
+					.post.style3 buttona.alt:active,
+					.post.style3 .buttona.alt:active {
 						background-color: rgba(144, 144, 144, 0.2);
 					}
 
 					.post.style3 input[type="submit"].alt.icon:before,
 					.post.style3 input[type="reset"].alt.icon:before,
-					.post.style3 input[type="button"].alt.icon:before,
-					.post.style3 button.alt.icon:before,
-					.post.style3 .button.alt.icon:before {
+					.post.style3 input[type="buttona"].alt.icon:before,
+					.post.style3 buttona.alt.icon:before,
+					.post.style3 .buttona.alt.icon:before {
 						color: #bbb;
 					}
 
 				.post.style3 input[type="submit"].special,
 				.post.style3 input[type="reset"].special,
-				.post.style3 input[type="button"].special,
-				.post.style3 button.special,
-				.post.style3 .button.special {
+				.post.style3 input[type="buttona"].special,
+				.post.style3 buttona.special,
+				.post.style3 .buttona.special {
 					background-color: #9b59b6;
 					color: #fff !important;
 				}
@@ -4341,34 +4341,34 @@
 
 				.post.style3.invert input[type="submit"],
 				.post.style3.invert input[type="reset"],
-				.post.style3.invert input[type="button"],
-				.post.style3.invert button,
-				.post.style3.invert .button {
+				.post.style3.invert input[type="buttona"],
+				.post.style3.invert buttona,
+				.post.style3.invert .buttona {
 					background-color: #1A8BBC;
 					color: #fff !important;
 				}
 
 					.post.style3.invert input[type="submit"]:hover,
 					.post.style3.invert input[type="reset"]:hover,
-					.post.style3.invert input[type="button"]:hover,
-					.post.style3.invert button:hover,
-					.post.style3.invert .button:hover {
+					.post.style3.invert input[type="buttona"]:hover,
+					.post.style3.invert buttona:hover,
+					.post.style3.invert .buttona:hover {
 						background-color: #1dd2af;
 					}
 
 					.post.style3.invert input[type="submit"]:active,
 					.post.style3.invert input[type="reset"]:active,
-					.post.style3.invert input[type="button"]:active,
-					.post.style3.invert button:active,
-					.post.style3.invert .button:active {
+					.post.style3.invert input[type="buttona"]:active,
+					.post.style3.invert buttona:active,
+					.post.style3.invert .buttona:active {
 						background-color: #17a689;
 					}
 
 					.post.style3.invert input[type="submit"].alt,
 					.post.style3.invert input[type="reset"].alt,
-					.post.style3.invert input[type="button"].alt,
-					.post.style3.invert button.alt,
-					.post.style3.invert .button.alt {
+					.post.style3.invert input[type="buttona"].alt,
+					.post.style3.invert buttona.alt,
+					.post.style3.invert .buttona.alt {
 						background-color: transparent;
 						box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.25);
 						color: #fff !important;
@@ -4376,33 +4376,33 @@
 
 						.post.style3.invert input[type="submit"].alt:hover,
 						.post.style3.invert input[type="reset"].alt:hover,
-						.post.style3.invert input[type="button"].alt:hover,
-						.post.style3.invert button.alt:hover,
-						.post.style3.invert .button.alt:hover {
+						.post.style3.invert input[type="buttona"].alt:hover,
+						.post.style3.invert buttona.alt:hover,
+						.post.style3.invert .buttona.alt:hover {
 							background-color: rgba(255, 255, 255, 0.075);
 						}
 
 						.post.style3.invert input[type="submit"].alt:active,
 						.post.style3.invert input[type="reset"].alt:active,
-						.post.style3.invert input[type="button"].alt:active,
-						.post.style3.invert button.alt:active,
-						.post.style3.invert .button.alt:active {
+						.post.style3.invert input[type="buttona"].alt:active,
+						.post.style3.invert buttona.alt:active,
+						.post.style3.invert .buttona.alt:active {
 							background-color: rgba(255, 255, 255, 0.2);
 						}
 
 						.post.style3.invert input[type="submit"].alt.icon:before,
 						.post.style3.invert input[type="reset"].alt.icon:before,
-						.post.style3.invert input[type="button"].alt.icon:before,
-						.post.style3.invert button.alt.icon:before,
-						.post.style3.invert .button.alt.icon:before {
+						.post.style3.invert input[type="buttona"].alt.icon:before,
+						.post.style3.invert buttona.alt.icon:before,
+						.post.style3.invert .buttona.alt.icon:before {
 							color: rgba(255, 255, 255, 0.5);
 						}
 
 					.post.style3.invert input[type="submit"].special,
 					.post.style3.invert input[type="reset"].special,
-					.post.style3.invert input[type="button"].special,
-					.post.style3.invert button.special,
-					.post.style3.invert .button.special {
+					.post.style3.invert input[type="buttona"].special,
+					.post.style3.invert buttona.special,
+					.post.style3.invert .buttona.special {
 						background-color: #fff;
 						color: #9b59b6 !important;
 					}
@@ -4510,7 +4510,7 @@
 					font-size: 1.75em;
 				}
 
-			.post .button {
+			.post .buttona {
 				width: 100%;
 			}
 
